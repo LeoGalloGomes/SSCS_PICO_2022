@@ -1,0 +1,4 @@
+* NGSPICE file created from MOM_capacitor.ext - technology: sky130A
+
+R0 in in_dummy sky130_fd_pr__res_generic_m5 w=7.82e+06u l=1.145e+06u
+R1 out_dummy out sky130_fd_pr__res_generic_m5 w=7.82e+06u l=1.145e+06u

@@ -63,6 +63,15 @@ N 510 -350 510 -40 { lab=gnd}
 N 450 -350 510 -350 { lab=gnd}
 N 300 -260 350 -260 { lab=Vdd}
 N 350 -350 350 -260 { lab=Vdd}
+N 140 -90 140 -70 { lab=in}
+N 140 -10 220 -10 { lab=gnd}
+N 80 -200 80 -170 { lab=gate}
+N 80 -110 80 -10 { lab=gnd}
+N 80 -10 140 -10 { lab=gnd}
+N 480 -190 480 -120 {}
+N 440 -190 480 -190 {}
+N 440 -200 440 -190 {}
+N 480 -60 480 -40 {}
 C {sky130_fd_pr/nfet_01v8_lvt.sym} 200 -90 0 0 {name=M1
 L=0.15
 W=25.2
@@ -155,3 +164,15 @@ spiceprefix=X
 }
 C {sky130_fd_pr/cap_mim_m3_1.sym} 430 -160 0 0 {name=C1 model=cap_mim_m3_1 W=15 L=15 MF=1 spiceprefix=X}
 C {sky130_fd_pr/cap_mim_m3_1.sym} 420 -350 3 0 {name=C2 model=cap_mim_m3_1 W=15 L=15 MF=1 spiceprefix=X}
+C {sky130_fd_pr/diode.sym} 140 -40 0 0 {name=D1
+model=diode_pw2nd_05v5
+area=202.5m
+}
+C {sky130_fd_pr/diode.sym} 80 -140 0 0 {name=D2
+model=diode_pw2nd_05v5
+area=202.5m
+}
+C {sky130_fd_pr/diode.sym} 480 -90 0 0 {name=D3
+model=diode_pw2nd_05v5
+area=202.5m
+}
