@@ -1,0 +1,33 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -130 -60 130 -60 {}
+L 4 -130 60 130 60 {}
+L 4 -130 -60 -130 60 {}
+L 4 130 -60 130 60 {}
+L 7 -80 -80 -80 -60 {}
+L 7 0 -80 0 -60 {}
+L 7 80 -80 80 -60 {}
+L 7 -150 0 -130 0 {}
+L 7 130 0 150 0 {}
+L 7 0 60 0 80 {}
+B 5 -82.5 -82.5 -77.5 -77.5 {name=Toggle dir=inout }
+B 5 -2.5 -82.5 2.5 -77.5 {name=Vdd dir=inout }
+B 5 77.5 -82.5 82.5 -77.5 {name=Gnd dir=inout }
+B 5 -152.5 -2.5 -147.5 2.5 {name=Port1 dir=inout }
+B 5 147.5 -2.5 152.5 2.5 {name=Port2 dir=inout }
+B 5 -2.5 77.5 2.5 82.5 {name=Port3 dir=inout }
+T {@symname} -58.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -72 0 0 0.2 0.2 {}
+T {Toggle} -84 -55 3 1 0.2 0.2 {}
+T {Vdd} -4 -55 3 1 0.2 0.2 {}
+T {Gnd} 76 -55 3 1 0.2 0.2 {}
+T {Port1} -125 4 2 1 0.2 0.2 {}
+T {Port2} 125 -4 0 1 0.2 0.2 {}
+T {Port3} 4 55 1 1 0.2 0.2 {}
