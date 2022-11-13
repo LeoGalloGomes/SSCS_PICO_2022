@@ -1,0 +1,26 @@
+v {xschem version=2.9.9 file_version=1.2 }
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -50 -60 -50 60 {}
+L 4 -50 -60 80 0 {}
+L 4 -50 60 80 0 {}
+L 7 80 0 100 0 {}
+L 7 0 -60 0 -40 {}
+L 7 -70 0 -50 0 {}
+L 7 0 40 0 60 {}
+B 5 97.5 -2.5 102.5 2.5 {name=tank_out dir=inout }
+B 5 -2.5 -62.5 2.5 -57.5 {name=bias2 dir=inout }
+B 5 -72.5 -2.5 -67.5 2.5 {name=bias1_input dir=inout }
+B 5 -2.5 57.5 2.5 62.5 {name=source dir=inout }
+T {@symname} 21.5 34 0 0 0.3 0.3 {}
+T {@name} -55 -72 0 0 0.2 0.2 {}
+T {tank_out} 75 -4 0 1 0.2 0.2 {}
+T {bias2} -4 -35 0 1 0.2 0.2 {}
+T {bias1_input} -45 4 3 1 0.2 0.2 {}
+T {source} -26 35 2 1 0.2 0.2 {}

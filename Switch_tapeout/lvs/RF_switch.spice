@@ -1,0 +1,53 @@
+.subckt RF_switch Port1 Port2 Port3 Enable /Enable Gnd
+*.PININFO Port1:B Port2:B Port3:B Enable:B /Enable:B Gnd:B
+XM1 Port2 net1 Gnd Gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=76 nf=19 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XR1 net1 net2 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=48.145 mult=1 m=1
+XM2 Port2 net2 Gnd Gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=76 nf=19 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XR2 net2 net3 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=50.495 mult=1 m=1
+XR3 net3 net15 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR4 net15 net16 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR5 net16 net4 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR6 net6 net17 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR7 net17 net18 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR8 net18 net4 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR9 net6 net19 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR10 net19 net20 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR11 net20 net5 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR12 net7 net21 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR13 net21 net22 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR14 net22 net5 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR15 net7 net23 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR16 net23 net24 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR17 net24 Enable Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR18 Port1 Port2 sky130_fd_pr__res_generic_m5 W=23.5 L=2 mult=1 m=1
+XR19 Port2 Port3 sky130_fd_pr__res_generic_m5 W=23.5 L=2 mult=1 m=1
+XM3 Port2 net8 Gnd Gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=76 nf=19 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XR20 net8 net9 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=48.145 mult=1 m=1
+XM4 Port2 net9 Gnd Gnd sky130_fd_pr__nfet_01v8_lvt L=0.15 W=76 nf=19 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1 
+XR21 net9 net10 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=50.495 mult=1 m=1
+XR22 net10 net25 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR23 net25 net26 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR24 net26 net11 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR25 net13 net27 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR26 net27 net28 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR27 net28 net11 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR28 net13 net29 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR29 net29 net30 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR30 net30 net12 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR31 net14 net31 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR32 net31 net32 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR33 net32 net12 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR34 net14 net33 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR35 net33 net34 Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+XR36 net34 /Enable Gnd sky130_fd_pr__res_xhigh_po W=0.35 L=45 mult=1 m=1
+.ends
+** flattened .save nodes
+.end

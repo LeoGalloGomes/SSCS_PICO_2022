@@ -1,0 +1,119 @@
+* NGSPICE file created from Switch.ext - technology: sky130A
+
+.subckt Switch /Enable Enable Gnd Port3 Port1 Port2
+X0 a_4630_15090# a_4948_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X1 a_3994_15090# a_3676_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X2 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=5.248e+13p pd=3.4624e+08u as=5.248e+13p ps=3.4624e+08u w=4e+06u l=150000u
+X3 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X4 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X5 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X6 a_3994_15090# a_4312_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X7 a_n47356_15090# Enable a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X8 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X9 a_n44176_15090# a_n43858_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X10 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+R0 Port1 Port2 sky130_fd_pr__res_generic_m5 w=2.35e+07u l=2e+06u
+X11 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X12 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X13 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X14 a_3358_15090# a_3676_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X15 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X16 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X17 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X18 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X19 a_n43540_15090# a_n43222_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X20 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X21 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X22 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X23 a_2722_15090# a_3040_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X24 a_n47356_15090# a_n47038_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X25 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X26 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X27 a_n46084_15090# a_n46402_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X28 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X29 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X30 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X31 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X32 a_n43540_15090# a_n43858_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X33 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X34 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X35 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X36 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X37 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X38 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X39 a_3358_15090# a_3040_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X40 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X41 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X42 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+R1 Port3 Port2 sky130_fd_pr__res_generic_m5 w=2.35e+07u l=2e+06u
+X43 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X44 a_166_n5749# a_154_4444# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.8145e+07u
+X45 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X46 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X47 a_6538_15090# /Enable a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X48 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X49 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X50 a_n46720_15090# a_n46402_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X51 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X52 a_n42904_15090# a_n43222_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X53 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X54 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X55 a_5902_15090# a_6220_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X56 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X57 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X58 a_2722_15090# a_2404_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X59 a_n46720_15090# a_n47038_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X60 a_n46084_15090# a_n45766_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X61 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X62 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X63 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X64 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X65 a_6538_15090# a_6220_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X66 a_5266_15090# a_5584_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X67 a_154_4444# a_2404_15090# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=5.0495e+07u
+X68 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X69 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X70 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X71 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X72 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X73 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X74 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X75 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X76 a_2404_15090# a_2404_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X77 a_n45448_15090# a_n45766_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X78 a_n44812_15090# a_n44494_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X79 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X80 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X81 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X82 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X83 Gnd a_166_n5749# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X84 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X85 a_5266_15090# a_4948_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X86 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X87 a_5902_15090# a_5584_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X88 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X89 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X90 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X91 a_n42904_n5603# a_n42904_4445# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.808e+07u
+X92 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X93 a_n42904_4445# a_n42904_15090# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=5.0435e+07u
+X94 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X95 Port2 a_166_n5749# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X96 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X97 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X98 Port2 a_n42904_n5603# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X99 a_n45448_15090# a_n45130_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X100 a_n44176_15090# a_n44494_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X101 a_n44812_15090# a_n45130_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X102 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X103 Gnd a_n42904_n5603# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X104 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X105 Gnd a_n42904_4445# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X106 Gnd a_154_4444# Port2 a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X107 a_4630_15090# a_4312_24522# a_n20687_21911# sky130_fd_pr__res_xhigh_po w=350000u l=4.5e+07u
+X108 Port2 a_154_4444# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+X109 Port2 a_n42904_4445# Gnd a_n20687_21911# sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=4e+06u l=150000u
+.ends
+
+*.subckt sky130_fd_pr__res_generic_m5 end_a end_b
+*.ends

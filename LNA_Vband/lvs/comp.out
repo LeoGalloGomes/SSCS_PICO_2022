@@ -1,0 +1,120 @@
+Flattening unmatched subcell core_V3.1 in circuit LNA_final (0)(1 instance)
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt     |Circuit 2: sky130_fd_pr__nfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_2      |Circuit 2: sky130_fd_pr__cap_mim_m3_2      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_2 and sky130_fd_pr__cap_mim_m3_2 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt     |Circuit 2: sky130_fd_pr__pfet_01v8_lvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Cell MOM_capacitor disconnected node: out
+Cell MOM_capacitor disconnected node: in
+Cell MOM_capacitor disconnected node: gnd
+
+Cell MOM_capacitor disconnected node: in
+Cell MOM_capacitor disconnected node: out
+Cell MOM_capacitor disconnected node: gnd
+Equate pins:  cell MOM_capacitor and/or MOM_capacitor has no elements.
+
+Subcircuit pins:
+Circuit 1: MOM_capacitor                   |Circuit 2: MOM_capacitor                   
+-------------------------------------------|-------------------------------------------
+out                                        |out                                        
+in                                         |in                                         
+gnd                                        |gnd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes MOM_capacitor and MOM_capacitor are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po      |Circuit 2: sky130_fd_pr__res_xhigh_po      
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po and sky130_fd_pr__res_xhigh_po are equivalent.
+Class LNA_final:  Merged 7 devices.
+Class LNA_final:  Merged 236 devices.
+
+Subcircuit summary:
+Circuit 1: LNA_final                       |Circuit 2: LNA_final                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_2 (3)             |sky130_fd_pr__cap_mim_m3_2 (3)             
+sky130_fd_pr__nfet_01v8_lvt (6)            |sky130_fd_pr__nfet_01v8_lvt (6)            
+sky130_fd_pr__pfet_01v8_lvt (2)            |sky130_fd_pr__pfet_01v8_lvt (2)            
+sky130_fd_pr__res_generic_po (1)           |sky130_fd_pr__res_generic_po (1)           
+MOM_capacitor (1)                          |MOM_capacitor (1)                          
+sky130_fd_pr__diode_pw2nd_05v5 (2)         |sky130_fd_pr__diode_pw2nd_05v5 (2)         
+sky130_fd_pr__res_xhigh_po (1)             |sky130_fd_pr__res_xhigh_po (1)             
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+core_V3.11/sky130_fd_pr__diode_pw2nd_05v52 vs. sky130_fd_pr__diode_pw2nd_05v50:
+Property pj in circuit2 has no matching property in circuit1
+core_V3.11/sky130_fd_pr__diode_pw2nd_05v51 vs. sky130_fd_pr__diode_pw2nd_05v51:
+Property pj in circuit2 has no matching property in circuit1
+sky130_fd_pr__pfet_01v8_lvtM4 vs. sky130_fd_pr__pfet_01v8_lvt10:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__pfet_01v8_lvtM2 vs. sky130_fd_pr__pfet_01v8_lvt12:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM3 vs. sky130_fd_pr__nfet_01v8_lvt2:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM1 vs. sky130_fd_pr__nfet_01v8_lvt4:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+core_V3.11/sky130_fd_pr__nfet_01v8_lvtM2 vs. sky130_fd_pr__nfet_01v8_lvt6:
+ W circuit1: 48   circuit2: 28   (delta=52.6%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM9 vs. sky130_fd_pr__nfet_01v8_lvt20:
+ W circuit1: 224.4   circuit2: 200   (delta=11.5%, cutoff=7%)
+
+Subcircuit pins:
+Circuit 1: LNA_final                       |Circuit 2: LNA_final                       
+-------------------------------------------|-------------------------------------------
+Vgg_1v2                                    |Vgg_1v2                                    
+RF_out                                     |RF_out                                     
+Vdd_1v8                                    |Vdd_1v8                                    
+Gnd                                        |Gnd                                        
+RF_in                                      |RF_in                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes LNA_final and LNA_final are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: LNA_final
