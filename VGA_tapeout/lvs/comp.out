@@ -1,0 +1,128 @@
+Flattening unmatched subcell VGA_gainCellv3 in circuit VGA_final (0)(1 instance)
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8_lvt has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8_lvt                                            |Circuit 2: sky130_fd_pr__nfet_01v8_lvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8_lvt and sky130_fd_pr__nfet_01v8_lvt are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_1 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_1                                             |Circuit 2: sky130_fd_pr__cap_mim_m3_1                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_1 and sky130_fd_pr__cap_mim_m3_1 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__cap_mim_m3_2 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__cap_mim_m3_2                                             |Circuit 2: sky130_fd_pr__cap_mim_m3_2                                             
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__cap_mim_m3_2 and sky130_fd_pr__cap_mim_m3_2 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt has no definition, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_lvt has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_lvt                                            |Circuit 2: sky130_fd_pr__pfet_01v8_lvt                                            
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+1                                                                                 |1                                                                                 
+2                                                                                 |2                                                                                 
+3                                                                                 |3                                                                                 
+4                                                                                 |4                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_lvt and sky130_fd_pr__pfet_01v8_lvt are equivalent.
+
+Cell MOM_capacitor disconnected node: out
+Cell MOM_capacitor disconnected node: in
+Cell MOM_capacitor disconnected node: gnd
+
+Cell MOM_capacitor disconnected node: in
+Cell MOM_capacitor disconnected node: out
+Cell MOM_capacitor disconnected node: gnd
+Equate pins:  cell MOM_capacitor and/or MOM_capacitor has no elements.
+
+Subcircuit pins:
+Circuit 1: MOM_capacitor                                                          |Circuit 2: MOM_capacitor                                                          
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+out                                                                               |out                                                                               
+in                                                                                |in                                                                                
+gnd                                                                               |gnd                                                                               
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes MOM_capacitor and MOM_capacitor are equivalent.
+Class VGA_final:  Merged 7 devices.
+Class VGA_final:  Merged 287 devices.
+
+Subcircuit summary:
+Circuit 1: VGA_final                                                              |Circuit 2: VGA_final                                                              
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+sky130_fd_pr__nfet_01v8_lvt (10)                                                  |sky130_fd_pr__nfet_01v8_lvt (10)                                                  
+sky130_fd_pr__cap_mim_m3_1 (2)                                                    |sky130_fd_pr__cap_mim_m3_1 (2)                                                    
+sky130_fd_pr__diode_pw2nd_05v5 (3)                                                |sky130_fd_pr__diode_pw2nd_05v5 (3)                                                
+sky130_fd_pr__cap_mim_m3_2 (4)                                                    |sky130_fd_pr__cap_mim_m3_2 (4)                                                    
+sky130_fd_pr__pfet_01v8_lvt (4)                                                   |sky130_fd_pr__pfet_01v8_lvt (4)                                                   
+sky130_fd_pr__res_generic_po (2)                                                  |sky130_fd_pr__res_generic_po (2)                                                  
+MOM_capacitor (1)                                                                 |MOM_capacitor (1)                                                                 
+Number of devices: 26                                                             |Number of devices: 26                                                             
+Number of nets: 9                                                                 |Number of nets: 9                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Circuits match uniquely.
+Property errors were found.
+Netlists match uniquely.
+There were property errors.
+sky130_fd_pr__pfet_01v8_lvtM4 vs. sky130_fd_pr__pfet_01v8_lvt0:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__pfet_01v8_lvtM8 vs. sky130_fd_pr__pfet_01v8_lvt15:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__pfet_01v8_lvtM6 vs. sky130_fd_pr__pfet_01v8_lvt24:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__pfet_01v8_lvtM2 vs. sky130_fd_pr__pfet_01v8_lvt3:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+VGA_gainCellv31/sky130_fd_pr__diode_pw2nd_05v52 vs. sky130_fd_pr__diode_pw2nd_05v50:
+Property pj in circuit2 has no matching property in circuit1
+VGA_gainCellv31/sky130_fd_pr__diode_pw2nd_05v51 vs. sky130_fd_pr__diode_pw2nd_05v51:
+Property pj in circuit2 has no matching property in circuit1
+VGA_gainCellv31/sky130_fd_pr__diode_pw2nd_05v53 vs. sky130_fd_pr__diode_pw2nd_05v52:
+Property pj in circuit2 has no matching property in circuit1
+sky130_fd_pr__nfet_01v8_lvtM7 vs. sky130_fd_pr__nfet_01v8_lvt1:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM9 vs. sky130_fd_pr__nfet_01v8_lvt6:
+ W circuit1: 224.4   circuit2: 200   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM5 vs. sky130_fd_pr__nfet_01v8_lvt2:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM1 vs. sky130_fd_pr__nfet_01v8_lvt11:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+sky130_fd_pr__nfet_01v8_lvtM3 vs. sky130_fd_pr__nfet_01v8_lvt14:
+ W circuit1: 112.2   circuit2: 100   (delta=11.5%, cutoff=7%)
+
+Subcircuit pins:
+Circuit 1: VGA_final                                                              |Circuit 2: VGA_final                                                              
+----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
+Vctrl                                                                             |Vctrl                                                                             
+Vgg_1v2                                                                           |Vgg_1v2                                                                           
+RF_out                                                                            |RF_out                                                                            
+RF_in                                                                             |RF_in                                                                             
+Gnd                                                                               |Gnd                                                                               
+Vdd_1v8                                                                           |Vdd_1v8                                                                           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes VGA_final and VGA_final are equivalent.
+Circuits match uniquely.
+Property errors were found.
+The following cells had property errors: VGA_final
